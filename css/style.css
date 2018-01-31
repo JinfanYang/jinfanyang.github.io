@@ -51,3 +51,27 @@ body {
   padding:0px;
   font-size:30px;
 }
+
+.content .row {
+  margin:0 2%;
+}
+
+.content .media a {
+  color: #777777;
+}
+
+.content .media a:hover {
+  color: #000000;
+}
+
+.projects {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #E7E7E7;
+}
+
+.projects p {
+  color: #777777;
+  padding:5% 5% 0px;
+  font-size:26px;
+}
