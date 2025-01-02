@@ -443,7 +443,6 @@ footer {
 }
 
 #about .about-thumb {
-  padding: 0px 27px;
   margin-top: 8px;
 }
 
@@ -901,7 +900,6 @@ footer .dash-line {
 }
 
 .photo {
-  width: 50%;
   margin-top: 26px;
 }
 
@@ -957,7 +955,7 @@ footer .dash-line {
 }
 
 .col-right {
-  padding-left: 16px;
+  padding-left: 22px;
   width: 70.333%;
   float: none;
   display: table-cell;
@@ -1232,10 +1230,23 @@ footer .dash-line {
   display: inline-flex !important;
 }
 
-.icon:first-of-type {
-  margin-left: 60%;
-}
+/* .icon:first-of-type {
+  margin-left: 50%;
+} */
 
 .icon {
   margin-left: 5%;
 }
+@media (max-width: 576px) {
+  .profile-image {
+    width: 66.67%;
+    display: block;
+    margin: 0 auto;
+  }
+  .profile {
+    width: 100%;;
+    display: block;
+  }
+}
+
+
